@@ -99,6 +99,7 @@ body::after {
 .title {
     font-family: var(--font-title);
     font-size: 4rem;
+    padding: 10px;
     background: var(--yellow-gradient);
     background-clip: text;
     -webkit-background-clip: text;
