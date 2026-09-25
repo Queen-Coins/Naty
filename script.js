@@ -94,11 +94,11 @@ function drawRoulette() {
             
             ctx.restore();
         } else {
-            ctx.fillStyle = isBordaux ? '#3c096c' : '#ffd700';
+            ctx.fillStyle = isBordaux ? '#3c096c' : '#ff007f';
             ctx.fill();
         }
 
-        ctx.strokeStyle = '#ffd700';
+        ctx.strokeStyle = '#ff007f';
         ctx.lineWidth = 1.5;
         ctx.stroke();
 
